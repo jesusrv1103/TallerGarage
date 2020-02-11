@@ -119,49 +119,11 @@
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="../../index.html"><i class="fa fa-circle-o"></i>Crear</a></li>
-            <li><a href="../../index2.html"><i class="fa fa-circle-o"></i> Listar</a></li>
+            <li><a  href="{{ route('admin.presupuestos.create') }}"><i class="fa fa-circle-o"></i>Crear</a></li>
+            <li><a href="{{ route('admin.presupuestos.index') }}"><i class="fa fa-circle-o"></i> Listar</a></li>
           </ul>
         </li>
-        <li class="treeview active">
-          <a href="#">
-            <i class="fa fa-files-o"></i>
-            <span>Layout Options</span>
-            <span class="pull-right-container">
-              <span class="label label-primary pull-right">4</span>
-            </span>
-          </a>
-          <ul class="treeview-menu">
-            <li><a href="top-nav.html"><i class="fa fa-circle-o"></i> Top Navigation</a></li>
-            <li><a href="boxed.html"><i class="fa fa-circle-o"></i> Boxed</a></li>
-            <li><a href="fixed.html"><i class="fa fa-circle-o"></i> Fixed</a></li>
-            <li class="active"><a href="collapsed-sidebar.html"><i class="fa fa-circle-o"></i> Collapsed Sidebar</a>
-            </li>
-          </ul>
-        </li>
-        <li>
-          <a href="../widgets.html">
-            <i class="fa fa-th"></i> <span>Widgets</span>
-            <span class="pull-right-container">
-              <small class="label pull-right bg-green">new</small>
-            </span>
-          </a>
-        </li>
-        <li class="treeview">
-          <a href="#">
-            <i class="fa fa-pie-chart"></i>
-            <span>Charts</span>
-            <span class="pull-right-container">
-              <i class="fa fa-angle-left pull-right"></i>
-            </span>
-          </a>
-          <ul class="treeview-menu">
-            <li><a href="../charts/chartjs.html"><i class="fa fa-circle-o"></i> ChartJS</a></li>
-            <li><a href="../charts/morris.html"><i class="fa fa-circle-o"></i> Morris</a></li>
-            <li><a href="../charts/flot.html"><i class="fa fa-circle-o"></i> Flot</a></li>
-            <li><a href="../charts/inline.html"><i class="fa fa-circle-o"></i> Inline charts</a></li>
-          </ul>
-        </li>
+     
         <li class="treeview">
           <a href="#">
             <i class="fa fa-laptop"></i>
@@ -292,13 +254,12 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        Sidebar Collapsed
-        <small>Layout with collapsed sidebar on load</small>
+        AUTOCONEX
+        <small>SISTEMA DE CONTROL DE SERVICIOS EXPRESS GARAGE</small>
       </h1>
       <ol class="breadcrumb">
-        <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-        <li><a href="#">Layout</a></li>
-        <li class="active">Collapsed Sidebar</li>
+        <li><a href="#"><i class="fa fa-dashboard"></i> Menu</a></li>
+        <li class="active">Inicio</li>
       </ol>
     </section>
 
@@ -308,49 +269,26 @@
           <!-- Application buttons -->
           <div class="box">
             <div class="box-header">
-              <h3 class="box-title">Application Buttons</h3>
+              <h3 class="box-title">AUTOCONEX</h3>
             </div>
             <div class="box-body">
-              <p>Add the classes <code>.btn.btn-app</code> to an <code>&lt;a&gt;</code> tag to achieve the following:</p>
+              <p>AUTO <code> CONTROL EXPRESS</code>  <code></code> GARAGE</p>
               <a class="btn btn-app">
-                <i class="fa fa-edit"></i> Edit
+                <i class="fa fa-money"></i> Crear presupuesto
               </a>
+            
+             
+              
+             
+             
               <a class="btn btn-app">
-                <i class="fa fa-play"></i> Play
+               
+                <i class="fa fa-barcode"></i> Inventarios
               </a>
-              <a class="btn btn-app">
-                <i class="fa fa-repeat"></i> Repeat
-              </a>
-              <a class="btn btn-app">
-                <i class="fa fa-pause"></i> Pause
-              </a>
-              <a class="btn btn-app">
-                <i class="fa fa-save"></i> Save
-              </a>
-              <a class="btn btn-app">
-                <span class="badge bg-yellow">3</span>
-                <i class="fa fa-bullhorn"></i> Notifications
-              </a>
-              <a class="btn btn-app">
-                <span class="badge bg-green">300</span>
-                <i class="fa fa-barcode"></i> Products
-              </a>
-              <a class="btn btn-app">
-                <span class="badge bg-purple">891</span>
-                <i class="fa fa-users"></i> Users
-              </a>
-              <a class="btn btn-app">
-                <span class="badge bg-teal">67</span>
-                <i class="fa fa-inbox"></i> Orders
-              </a>
-              <a class="btn btn-app">
-                <span class="badge bg-aqua">12</span>
-                <i class="fa fa-envelope"></i> Inbox
-              </a>
-              <a class="btn btn-app">
-                <span class="badge bg-red">531</span>
-                <i class="fa fa-heart-o"></i> Likes
-              </a>
+            
+            
+             
+            
             </div>
             <!-- /.box-body -->
           </div>
