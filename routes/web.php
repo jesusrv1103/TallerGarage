@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('home');
 });
 
 
@@ -30,7 +30,17 @@ Route::group(
         Route::get('presupuestos/{presupuesto}/edit', 'PresupuestoController@edit')->name('admin.presupuestos.edit');
         Route::put('presupuestos/{presupuesto}', 'PresupuestoController@update')->name('admin.presupuestos.update');
         Route::delete('presupuestos/{presupuesto}', 'PresupuestoController@destroy')->name('admin.presupuestos.destroy');
+
+
+        Route::get('clientes', 'ClienteController@index')->name('admin.clientes.index');
+        Route::get('clientes/create', 'ClienteController@create')->name('admin.clientes.create');
+        Route::post('clientes', 'ClienteController@store')->name('admin.clientes.store');
+        Route::get('clientes/{presupuesto}/edit', 'ClienteController@edit')->name('admin.clientes.edit');
+        Route::put('clientes/{presupuesto}', 'ClienteController@update')->name('admin.clientes.update');
+        Route::delete('clientes/{presupuesto}', 'ClienteController@destroy')->name('admin.clientes.destroy');
   
    
       }
   );
+
+
