@@ -38,6 +38,15 @@ Route::group(
         Route::get('clientes/{presupuesto}/edit', 'ClienteController@edit')->name('admin.clientes.edit');
         Route::put('clientes/{presupuesto}', 'ClienteController@update')->name('admin.clientes.update');
         Route::delete('clientes/{presupuesto}', 'ClienteController@destroy')->name('admin.clientes.destroy');
+
+
+
+        Route::get('vehiculos', 'VehiculoController@index')->name('admin.vehiculos.index');
+        Route::get('vehiculos/create', 'VehiculoController@create')->name('admin.vehiculos.create');
+        Route::post('vehiculos', 'VehiculoController@store')->name('admin.vehiculos.store');
+        Route::get('vehiculos/{presupuesto}/edit', 'VehiculoController@edit')->name('admin.vehiculos.edit');
+        Route::put('vehiculos/{presupuesto}', 'VehiculoController@update')->name('admin.vehiculos.update');
+        Route::delete('vehiculos/{presupuesto}', 'VehiculoController@destroy')->name('admin.vehiculos.destroy');
   
    
       }

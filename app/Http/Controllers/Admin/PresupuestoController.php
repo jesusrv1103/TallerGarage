@@ -9,12 +9,12 @@ class PresupuestoController extends Controller
 {
     public function index()
     {
-        return "index";
+        return view("admin.presupuestos.index");
     }
 
 
     public function create()
     {
-        return "create";
+        return view("admin.presupuestos.create");
     }
 }
