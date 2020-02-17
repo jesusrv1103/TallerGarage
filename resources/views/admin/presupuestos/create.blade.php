@@ -244,21 +244,18 @@
                                             </tr>
 
 
-                                            <th>Anticipos</th>
-                                            <th>Por pagar</th>
-                                            <th>Fecha Ingreso</th>
+                                            <tr>
+                                                <td>Anticipos</td>
+                                                <td></td>
                                             </tr>
                                             <tr>
-                                                <td style="width: 10px">1</td>
-                                                <td>1</td>
-                                                <td>25171500</td>
-                                                <td>JG203TXT</td>
-                                                <td>Juego de balatas</td>
-                                                <td>645</td>
-                                                <td>Total</td>
+                                                    <td>Por pagar</td>
+                                                    <td></td>
                                             </tr>
-
-
+                                            <tr>
+                                                    <td>Fecha Ingreso</td>
+                                                    <td></td>
+                                            </tr>
                                         </tbody>
                                     </table>
                                 </div>
